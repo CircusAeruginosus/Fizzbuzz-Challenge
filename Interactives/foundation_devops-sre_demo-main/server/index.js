@@ -10,7 +10,7 @@ const Rollbar = require("rollbar");
 const { SERVER_PORT, ROLLBAR_TOKEN } = process.env;
 
 const rollbar = new Rollbar({
-    accessToken: ROLLBAR_TOKEN,
+    accessToken: b8cdd170bd8f4efe96ecd2cd26620859,
     captureUncaught: true,
     captureUnhandledRejections: true,
 })
